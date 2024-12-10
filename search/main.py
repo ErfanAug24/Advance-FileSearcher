@@ -279,8 +279,6 @@ instance = FileApi(
     group="erfan",
     suffix=".py",
 )
-# instance.search_by_suffix()
-# instance.search_by_name()
-# instance.search_by_group()
+
 print(instance._error_data)
-# print(instance.current_result_output())
+print("hello")
